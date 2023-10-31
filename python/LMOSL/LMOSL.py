@@ -235,7 +235,7 @@ xg = np.zeros(N, dtype=float)
 for i in range(N): xg[i] = T_data[i]
 yg = np.zeros(N, dtype=float)
 for i in range(N): yg[i] = PG[i]
-plt.plot(xg, yg, color='tab:olive', labelx1 = np.zeros(N, dtype=float)
+plt.plot(xg, yg, color='tab:olive', labelx1 = np.zeros(N, dtype=float))
 
 plt.title('LM Data')
 plt.xlabel('T (s)')
